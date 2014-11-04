@@ -15,6 +15,7 @@ public class CameraLook : MonoBehaviour {
 		if (Physics.Raycast(cameraCenter, this.transform.forward, out hit, 1000))
 		{
 			var obj = hit.transform.gameObject;
+			obj.renderer.material.color = new Color(0,255,0);
 			hit.transform.Rotate(1.0f, 1.0f, 1.0f);
 		}
 	}
