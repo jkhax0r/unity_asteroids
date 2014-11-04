@@ -3,6 +3,8 @@ using System.Collections;
 
 public class CameraLook : MonoBehaviour {
 
+	Color green = new Color(0,255,0);
+
 	// Use this for initialization
 	void Start () {
 	
@@ -15,7 +17,13 @@ public class CameraLook : MonoBehaviour {
 		if (Physics.Raycast(cameraCenter, this.transform.forward, out hit, 1000))
 		{
 			var obj = hit.transform.gameObject;
-			obj.renderer.material.color = new Color(0,255,0);
+	        
+			if(obj.name == "Asteroid"){
+				if(obj.renderer.material.color != green){
+      			obj.renderer.material.color = new Color(0,255,0);
+		    	obj.audio.Play ();
+				}
+			}
 			hit.transform.Rotate(1.0f, 1.0f, 1.0f);
 		}
 	}
