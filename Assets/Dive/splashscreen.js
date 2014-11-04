@@ -1,7 +1,7 @@
 ﻿#pragma strict
 var guiObject : GUITexture;
 
-var fadeTime = 1.0;
+var fadeTime = 2.0;
 var nextscene= 1;
 
 enum Fade {In, Out}
@@ -17,11 +17,11 @@ function Start () {
 
     yield FadeGUITexture(guiObject, fadeTime, Fade.In);
 
-    yield WaitForSeconds(0.25);
+    yield WaitForSeconds(0.5);
 
     yield FadeGUITexture(guiObject, fadeTime, Fade.Out);
 	
-	yield WaitForSeconds(0.25);
+	yield WaitForSeconds(0.5);
     
     Application.LoadLevel(nextscene);
 }
