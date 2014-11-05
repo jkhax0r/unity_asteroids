@@ -225,7 +225,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 1411520618}
   m_GameObject: {fileID: 26706144}
   serializedVersion: 2
-  m_Mass: 20
+  m_Mass: 1000
   m_Drag: 0
   m_AngularDrag: 0
   m_UseGravity: 0
@@ -618,7 +618,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 181618495}
   m_GameObject: {fileID: 210444338}
   serializedVersion: 2
-  m_Mass: 20
+  m_Mass: 1000
   m_Drag: 0
   m_AngularDrag: 0
   m_UseGravity: 0
@@ -780,7 +780,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 792605243}
   m_GameObject: {fileID: 292411213}
   serializedVersion: 2
-  m_Mass: 20
+  m_Mass: 1000
   m_Drag: 0
   m_AngularDrag: 0
   m_UseGravity: 0
@@ -1501,7 +1501,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 1361199566}
   m_GameObject: {fileID: 1049024185}
   serializedVersion: 2
-  m_Mass: 20
+  m_Mass: 1000
   m_Drag: 0
   m_AngularDrag: 0
   m_UseGravity: 0
@@ -2129,7 +2129,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100659501}
   m_GameObject: {fileID: 1430807750}
   serializedVersion: 2
-  m_Mass: 20
+  m_Mass: 1000
   m_Drag: 0
   m_AngularDrag: 0
   m_UseGravity: 0
@@ -3841,7 +3841,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 501074983}
   m_GameObject: {fileID: 1871566587}
   serializedVersion: 2
-  m_Mass: 20
+  m_Mass: 1000
   m_Drag: 0
   m_AngularDrag: 0
   m_UseGravity: 0
@@ -4062,7 +4062,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 1777961341}
   m_GameObject: {fileID: 1885321681}
   serializedVersion: 2
-  m_Mass: 20
+  m_Mass: 1000
   m_Drag: 0
   m_AngularDrag: 0
   m_UseGravity: 0
@@ -4165,7 +4165,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 577572176}
   m_GameObject: {fileID: 1959482109}
   serializedVersion: 2
-  m_Mass: 20
+  m_Mass: 1000
   m_Drag: 0
   m_AngularDrag: 0
   m_UseGravity: 0
@@ -4423,7 +4423,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 297137293}
   m_GameObject: {fileID: 2085808078}
   serializedVersion: 2
-  m_Mass: 20
+  m_Mass: 1000
   m_Drag: 0
   m_AngularDrag: 0
   m_UseGravity: 0
@@ -4713,7 +4713,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 2101136419}
   m_GameObject: {fileID: 2104085654}
   serializedVersion: 2
-  m_Mass: 20
+  m_Mass: 1000
   m_Drag: 0
   m_AngularDrag: 0
   m_UseGravity: 0
