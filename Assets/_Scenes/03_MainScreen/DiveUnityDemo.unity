@@ -138,9 +138,10 @@ GameObject:
   - 23: {fileID: 26706148}
   - 54: {fileID: 26706147}
   - 82: {fileID: 26706146}
+  - 114: {fileID: 26706151}
   m_Layer: 0
   m_Name: Asteroid
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -230,7 +231,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 2
+  m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!23 &26706148
 Renderer:
@@ -260,7 +261,7 @@ BoxCollider:
     type: 2}
   m_PrefabInternal: {fileID: 1411520618}
   m_GameObject: {fileID: 26706144}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 28e3efcc597b8374b9e7696e7349c250, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -274,6 +275,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1411520618}
   m_GameObject: {fileID: 26706144}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &26706151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: afe0dbda419fa7f45bd2227129c6e1e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 1411520618}
+  m_GameObject: {fileID: 26706144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c952c48593f4cd94884f77ef3b1f749a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &37582937
 GameObject:
   m_ObjectHideFlags: 0
@@ -518,9 +531,10 @@ GameObject:
   - 23: {fileID: 210444342}
   - 54: {fileID: 210444341}
   - 82: {fileID: 210444340}
+  - 114: {fileID: 210444345}
   m_Layer: 0
   m_Name: Asteroid
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -610,7 +624,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 2
+  m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!23 &210444342
 Renderer:
@@ -640,7 +654,7 @@ BoxCollider:
     type: 2}
   m_PrefabInternal: {fileID: 181618495}
   m_GameObject: {fileID: 210444338}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 28e3efcc597b8374b9e7696e7349c250, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -654,6 +668,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 181618495}
   m_GameObject: {fileID: 210444338}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &210444345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: afe0dbda419fa7f45bd2227129c6e1e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 181618495}
+  m_GameObject: {fileID: 210444338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c952c48593f4cd94884f77ef3b1f749a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &292411213
 GameObject:
   m_ObjectHideFlags: 0
@@ -667,9 +693,10 @@ GameObject:
   - 23: {fileID: 292411217}
   - 54: {fileID: 292411216}
   - 82: {fileID: 292411215}
+  - 114: {fileID: 292411220}
   m_Layer: 0
   m_Name: Asteroid
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -759,7 +786,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 2
+  m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!23 &292411217
 Renderer:
@@ -789,7 +816,7 @@ BoxCollider:
     type: 2}
   m_PrefabInternal: {fileID: 792605243}
   m_GameObject: {fileID: 292411213}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 28e3efcc597b8374b9e7696e7349c250, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -803,6 +830,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 792605243}
   m_GameObject: {fileID: 292411213}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &292411220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: afe0dbda419fa7f45bd2227129c6e1e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 792605243}
+  m_GameObject: {fileID: 292411213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c952c48593f4cd94884f77ef3b1f749a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &297137293
 Prefab:
   m_ObjectHideFlags: 0
@@ -872,7 +911,7 @@ GameObject:
   - 23: {fileID: 475650916}
   m_Layer: 0
   m_Name: BorderLeft
-  m_TagString: Untagged
+  m_TagString: Border
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -906,7 +945,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 475650915}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -1069,7 +1108,7 @@ Light:
   serializedVersion: 3
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 8
+  m_Intensity: 3.43000007
   m_Range: 50
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -1191,7 +1230,7 @@ GameObject:
   - 23: {fileID: 722162648}
   m_Layer: 0
   m_Name: BorderUp
-  m_TagString: Untagged
+  m_TagString: Border
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1225,7 +1264,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 722162647}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -1434,9 +1473,10 @@ GameObject:
   - 23: {fileID: 1049024188}
   - 54: {fileID: 1049024187}
   - 82: {fileID: 1049024191}
+  - 114: {fileID: 1049024192}
   m_Layer: 0
   m_Name: Asteroid
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1467,7 +1507,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 2
+  m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!23 &1049024188
 Renderer:
@@ -1497,7 +1537,7 @@ BoxCollider:
     type: 2}
   m_PrefabInternal: {fileID: 1361199566}
   m_GameObject: {fileID: 1049024185}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 28e3efcc597b8374b9e7696e7349c250, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -1570,6 +1610,18 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
+--- !u!114 &1049024192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: afe0dbda419fa7f45bd2227129c6e1e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 1361199566}
+  m_GameObject: {fileID: 1049024185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c952c48593f4cd94884f77ef3b1f749a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1083499252
 GameObject:
   m_ObjectHideFlags: 0
@@ -1647,7 +1699,7 @@ GameObject:
   - 23: {fileID: 1115902865}
   m_Layer: 0
   m_Name: BorderDown
-  m_TagString: Untagged
+  m_TagString: Border
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1681,7 +1733,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1115902864}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -1714,9 +1766,10 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1259306499}
+  - 65: {fileID: 1259306500}
   m_Layer: 0
   m_Name: Game Borders
-  m_TagString: Untagged
+  m_TagString: Border
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1739,6 +1792,18 @@ Transform:
   - {fileID: 1504681308}
   m_Father: {fileID: 1796560032}
   m_RootOrder: 2
+--- !u!65 &1259306500
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1259306498}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1291809006
 GameObject:
   m_ObjectHideFlags: 0
@@ -1752,7 +1817,7 @@ GameObject:
   - 23: {fileID: 1291809007}
   m_Layer: 0
   m_Name: BorderRight
-  m_TagString: Untagged
+  m_TagString: Border
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1786,7 +1851,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1291809006}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -1977,9 +2042,10 @@ GameObject:
   - 23: {fileID: 1430807754}
   - 54: {fileID: 1430807753}
   - 82: {fileID: 1430807752}
+  - 114: {fileID: 1430807757}
   m_Layer: 0
   m_Name: Asteroid
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -2069,7 +2135,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 2
+  m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!23 &1430807754
 Renderer:
@@ -2099,7 +2165,7 @@ BoxCollider:
     type: 2}
   m_PrefabInternal: {fileID: 100659501}
   m_GameObject: {fileID: 1430807750}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 28e3efcc597b8374b9e7696e7349c250, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -2113,6 +2179,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100659501}
   m_GameObject: {fileID: 1430807750}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1430807757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: afe0dbda419fa7f45bd2227129c6e1e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 100659501}
+  m_GameObject: {fileID: 1430807750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c952c48593f4cd94884f77ef3b1f749a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1504681307
 GameObject:
   m_ObjectHideFlags: 0
@@ -2126,7 +2204,7 @@ GameObject:
   - 23: {fileID: 1504681309}
   m_Layer: 0
   m_Name: BorderBottom
-  m_TagString: Untagged
+  m_TagString: Border
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2172,7 +2250,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1504681307}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -3735,9 +3813,10 @@ GameObject:
   - 23: {fileID: 1871566590}
   - 54: {fileID: 1871566589}
   - 82: {fileID: 1871566593}
+  - 114: {fileID: 1871566594}
   m_Layer: 0
   m_Name: Asteroid
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -3768,7 +3847,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 2
+  m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!23 &1871566590
 Renderer:
@@ -3798,7 +3877,7 @@ BoxCollider:
     type: 2}
   m_PrefabInternal: {fileID: 501074983}
   m_GameObject: {fileID: 1871566587}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 28e3efcc597b8374b9e7696e7349c250, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -3871,6 +3950,18 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
+--- !u!114 &1871566594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: afe0dbda419fa7f45bd2227129c6e1e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 501074983}
+  m_GameObject: {fileID: 1871566587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c952c48593f4cd94884f77ef3b1f749a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1885321681
 GameObject:
   m_ObjectHideFlags: 0
@@ -3884,9 +3975,10 @@ GameObject:
   - 23: {fileID: 1885321685}
   - 54: {fileID: 1885321684}
   - 82: {fileID: 1885321683}
+  - 114: {fileID: 1885321688}
   m_Layer: 0
   m_Name: Asteroid
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -3976,7 +4068,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 2
+  m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!23 &1885321685
 Renderer:
@@ -4006,7 +4098,7 @@ BoxCollider:
     type: 2}
   m_PrefabInternal: {fileID: 1777961341}
   m_GameObject: {fileID: 1885321681}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 28e3efcc597b8374b9e7696e7349c250, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -4020,6 +4112,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1777961341}
   m_GameObject: {fileID: 1885321681}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1885321688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: afe0dbda419fa7f45bd2227129c6e1e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 1777961341}
+  m_GameObject: {fileID: 1885321681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c952c48593f4cd94884f77ef3b1f749a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1959482109
 GameObject:
   m_ObjectHideFlags: 0
@@ -4033,9 +4137,10 @@ GameObject:
   - 23: {fileID: 1959482112}
   - 54: {fileID: 1959482111}
   - 82: {fileID: 1959482115}
+  - 114: {fileID: 1959482116}
   m_Layer: 0
   m_Name: Asteroid
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -4066,7 +4171,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 2
+  m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!23 &1959482112
 Renderer:
@@ -4096,7 +4201,7 @@ BoxCollider:
     type: 2}
   m_PrefabInternal: {fileID: 577572176}
   m_GameObject: {fileID: 1959482109}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 28e3efcc597b8374b9e7696e7349c250, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -4169,6 +4274,18 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
+--- !u!114 &1959482116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: afe0dbda419fa7f45bd2227129c6e1e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 577572176}
+  m_GameObject: {fileID: 1959482109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c952c48593f4cd94884f77ef3b1f749a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2018196295
 GameObject:
   m_ObjectHideFlags: 0
@@ -4278,9 +4395,10 @@ GameObject:
   - 23: {fileID: 2085808081}
   - 54: {fileID: 2085808080}
   - 82: {fileID: 2085808084}
+  - 114: {fileID: 2085808085}
   m_Layer: 0
   m_Name: Asteroid
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -4311,7 +4429,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 2
+  m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!23 &2085808081
 Renderer:
@@ -4341,7 +4459,7 @@ BoxCollider:
     type: 2}
   m_PrefabInternal: {fileID: 297137293}
   m_GameObject: {fileID: 2085808078}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 28e3efcc597b8374b9e7696e7349c250, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -4414,6 +4532,18 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
+--- !u!114 &2085808085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: afe0dbda419fa7f45bd2227129c6e1e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 297137293}
+  m_GameObject: {fileID: 2085808078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c952c48593f4cd94884f77ef3b1f749a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2100267168
 GameObject:
   m_ObjectHideFlags: 0
@@ -4427,7 +4557,7 @@ GameObject:
   - 23: {fileID: 2100267170}
   m_Layer: 0
   m_Name: BorderTop
-  m_TagString: Untagged
+  m_TagString: Border
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4473,7 +4603,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2100267168}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -4555,9 +4685,10 @@ GameObject:
   - 23: {fileID: 2104085657}
   - 54: {fileID: 2104085656}
   - 82: {fileID: 2104085660}
+  - 114: {fileID: 2104085661}
   m_Layer: 0
   m_Name: Asteroid
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -4588,7 +4719,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 2
+  m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!23 &2104085657
 Renderer:
@@ -4618,7 +4749,7 @@ BoxCollider:
     type: 2}
   m_PrefabInternal: {fileID: 2101136419}
   m_GameObject: {fileID: 2104085654}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 28e3efcc597b8374b9e7696e7349c250, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -4691,6 +4822,18 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
+--- !u!114 &2104085661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: afe0dbda419fa7f45bd2227129c6e1e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 2101136419}
+  m_GameObject: {fileID: 2104085654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c952c48593f4cd94884f77ef3b1f749a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!65 &2127411186
 BoxCollider:
   m_ObjectHideFlags: 0
