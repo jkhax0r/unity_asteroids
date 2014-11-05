@@ -139,7 +139,8 @@ GameObject:
   - 54: {fileID: 26706147}
   - 82: {fileID: 26706146}
   - 114: {fileID: 26706151}
-  m_Layer: 0
+  - 96: {fileID: 26706152}
+  m_Layer: 8
   m_Name: Asteroid
   m_TagString: Asteroid
   m_Icon: {fileID: 0}
@@ -287,6 +288,48 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c952c48593f4cd94884f77ef3b1f749a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!96 &26706152
+TrailRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9600000, guid: afe0dbda419fa7f45bd2227129c6e1e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 1411520618}
+  m_GameObject: {fileID: 26706144}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Time: 5
+  m_StartWidth: .300000012
+  m_EndWidth: .100000001
+  m_Colors:
+    m_Color[0]:
+      serializedVersion: 2
+      rgba: 4294967295
+    m_Color[1]:
+      serializedVersion: 2
+      rgba: 4294967295
+    m_Color[2]:
+      serializedVersion: 2
+      rgba: 4294967295
+    m_Color[3]:
+      serializedVersion: 2
+      rgba: 4294967295
+    m_Color[4]:
+      serializedVersion: 2
+      rgba: 16777215
+  m_MinVertexDistance: .100000001
+  m_Autodestruct: 0
 --- !u!1 &37582937
 GameObject:
   m_ObjectHideFlags: 0
@@ -343,7 +386,7 @@ Transform:
   m_LocalScale: {x: 34.9329948, y: 34.932991, z: 34.932991}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
 --- !u!122 &37582942
 Halo:
   m_ObjectHideFlags: 0
@@ -532,7 +575,8 @@ GameObject:
   - 54: {fileID: 210444341}
   - 82: {fileID: 210444340}
   - 114: {fileID: 210444345}
-  m_Layer: 0
+  - 96: {fileID: 210444346}
+  m_Layer: 8
   m_Name: Asteroid
   m_TagString: Asteroid
   m_Icon: {fileID: 0}
@@ -680,6 +724,48 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c952c48593f4cd94884f77ef3b1f749a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!96 &210444346
+TrailRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9600000, guid: afe0dbda419fa7f45bd2227129c6e1e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 181618495}
+  m_GameObject: {fileID: 210444338}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Time: 5
+  m_StartWidth: .300000012
+  m_EndWidth: .100000001
+  m_Colors:
+    m_Color[0]:
+      serializedVersion: 2
+      rgba: 4294967295
+    m_Color[1]:
+      serializedVersion: 2
+      rgba: 4294967295
+    m_Color[2]:
+      serializedVersion: 2
+      rgba: 4294967295
+    m_Color[3]:
+      serializedVersion: 2
+      rgba: 4294967295
+    m_Color[4]:
+      serializedVersion: 2
+      rgba: 16777215
+  m_MinVertexDistance: .100000001
+  m_Autodestruct: 0
 --- !u!1 &292411213
 GameObject:
   m_ObjectHideFlags: 0
@@ -694,7 +780,8 @@ GameObject:
   - 54: {fileID: 292411216}
   - 82: {fileID: 292411215}
   - 114: {fileID: 292411220}
-  m_Layer: 0
+  - 96: {fileID: 292411221}
+  m_Layer: 8
   m_Name: Asteroid
   m_TagString: Asteroid
   m_Icon: {fileID: 0}
@@ -842,6 +929,48 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c952c48593f4cd94884f77ef3b1f749a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!96 &292411221
+TrailRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9600000, guid: afe0dbda419fa7f45bd2227129c6e1e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 792605243}
+  m_GameObject: {fileID: 292411213}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Time: 5
+  m_StartWidth: .300000012
+  m_EndWidth: .100000001
+  m_Colors:
+    m_Color[0]:
+      serializedVersion: 2
+      rgba: 4294967295
+    m_Color[1]:
+      serializedVersion: 2
+      rgba: 4294967295
+    m_Color[2]:
+      serializedVersion: 2
+      rgba: 4294967295
+    m_Color[3]:
+      serializedVersion: 2
+      rgba: 4294967295
+    m_Color[4]:
+      serializedVersion: 2
+      rgba: 16777215
+  m_MinVertexDistance: .100000001
+  m_Autodestruct: 0
 --- !u!1001 &297137293
 Prefab:
   m_ObjectHideFlags: 0
@@ -1144,7 +1273,7 @@ Transform:
   m_LocalScale: {x: 2.90488815, y: 2.9048903, z: 4.08605242}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
 --- !u!1 &716417840
 GameObject:
   m_ObjectHideFlags: 0
@@ -1345,70 +1474,6 @@ Prefab:
   m_RootGameObject: {fileID: 292411213}
   m_IsPrefabParent: 0
   m_IsExploded: 1
---- !u!1 &852187147
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 852187150}
-  - 132: {fileID: 852187149}
-  - 114: {fileID: 852187148}
-  m_Layer: 0
-  m_Name: GUI_FPS
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &852187148
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 852187147}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86cc6baa122513a4b8ca13de9c521b24, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  updateInterval: .5
---- !u!132 &852187149
-GUIText:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 852187147}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Text: 000
-  m_Anchor: 0
-  m_Alignment: 0
-  m_PixelOffset: {x: 0, y: 0}
-  m_LineSpacing: 1
-  m_TabSize: 4
-  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-  m_Material: {fileID: 0}
-  m_FontSize: 9
-  m_FontStyle: 0
-  m_Color:
-    serializedVersion: 2
-    rgba: 4278205183
-  m_PixelCorrect: 1
-  m_RichText: 1
---- !u!4 &852187150
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 852187147}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .534479618, y: .958046436, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
 --- !u!1 &973668213
 GameObject:
   m_ObjectHideFlags: 0
@@ -1474,7 +1539,8 @@ GameObject:
   - 54: {fileID: 1049024187}
   - 82: {fileID: 1049024191}
   - 114: {fileID: 1049024192}
-  m_Layer: 0
+  - 96: {fileID: 1049024193}
+  m_Layer: 8
   m_Name: Asteroid
   m_TagString: Asteroid
   m_Icon: {fileID: 0}
@@ -1622,6 +1688,48 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c952c48593f4cd94884f77ef3b1f749a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!96 &1049024193
+TrailRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9600000, guid: afe0dbda419fa7f45bd2227129c6e1e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 1361199566}
+  m_GameObject: {fileID: 1049024185}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Time: 5
+  m_StartWidth: .300000012
+  m_EndWidth: .100000001
+  m_Colors:
+    m_Color[0]:
+      serializedVersion: 2
+      rgba: 4294967295
+    m_Color[1]:
+      serializedVersion: 2
+      rgba: 4294967295
+    m_Color[2]:
+      serializedVersion: 2
+      rgba: 4294967295
+    m_Color[3]:
+      serializedVersion: 2
+      rgba: 4294967295
+    m_Color[4]:
+      serializedVersion: 2
+      rgba: 16777215
+  m_MinVertexDistance: .100000001
+  m_Autodestruct: 0
 --- !u!1 &1083499252
 GameObject:
   m_ObjectHideFlags: 0
@@ -2043,7 +2151,8 @@ GameObject:
   - 54: {fileID: 1430807753}
   - 82: {fileID: 1430807752}
   - 114: {fileID: 1430807757}
-  m_Layer: 0
+  - 96: {fileID: 1430807758}
+  m_Layer: 8
   m_Name: Asteroid
   m_TagString: Asteroid
   m_Icon: {fileID: 0}
@@ -2191,6 +2300,48 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c952c48593f4cd94884f77ef3b1f749a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!96 &1430807758
+TrailRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9600000, guid: afe0dbda419fa7f45bd2227129c6e1e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 100659501}
+  m_GameObject: {fileID: 1430807750}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Time: 5
+  m_StartWidth: .300000012
+  m_EndWidth: .100000001
+  m_Colors:
+    m_Color[0]:
+      serializedVersion: 2
+      rgba: 4294967295
+    m_Color[1]:
+      serializedVersion: 2
+      rgba: 4294967295
+    m_Color[2]:
+      serializedVersion: 2
+      rgba: 4294967295
+    m_Color[3]:
+      serializedVersion: 2
+      rgba: 4294967295
+    m_Color[4]:
+      serializedVersion: 2
+      rgba: 16777215
+  m_MinVertexDistance: .100000001
+  m_Autodestruct: 0
 --- !u!1 &1504681307
 GameObject:
   m_ObjectHideFlags: 0
@@ -2272,7 +2423,9 @@ GameObject:
   m_Component:
   - 4: {fileID: 1578616898}
   - 143: {fileID: 1767232293}
-  m_Layer: 0
+  - 23: {fileID: 1578616900}
+  - 33: {fileID: 1578616899}
+  m_Layer: 9
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2292,6 +2445,33 @@ Transform:
   - {fileID: 1403887280}
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!33 &1578616899
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1578616897}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &1578616900
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1578616897}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1 &1683663096
 GameObject:
   m_ObjectHideFlags: 0
@@ -3814,7 +3994,8 @@ GameObject:
   - 54: {fileID: 1871566589}
   - 82: {fileID: 1871566593}
   - 114: {fileID: 1871566594}
-  m_Layer: 0
+  - 96: {fileID: 1871566595}
+  m_Layer: 8
   m_Name: Asteroid
   m_TagString: Asteroid
   m_Icon: {fileID: 0}
@@ -3962,6 +4143,48 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c952c48593f4cd94884f77ef3b1f749a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!96 &1871566595
+TrailRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9600000, guid: afe0dbda419fa7f45bd2227129c6e1e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 501074983}
+  m_GameObject: {fileID: 1871566587}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Time: 5
+  m_StartWidth: .300000012
+  m_EndWidth: .100000001
+  m_Colors:
+    m_Color[0]:
+      serializedVersion: 2
+      rgba: 4294967295
+    m_Color[1]:
+      serializedVersion: 2
+      rgba: 4294967295
+    m_Color[2]:
+      serializedVersion: 2
+      rgba: 4294967295
+    m_Color[3]:
+      serializedVersion: 2
+      rgba: 4294967295
+    m_Color[4]:
+      serializedVersion: 2
+      rgba: 16777215
+  m_MinVertexDistance: .100000001
+  m_Autodestruct: 0
 --- !u!1 &1885321681
 GameObject:
   m_ObjectHideFlags: 0
@@ -3976,7 +4199,8 @@ GameObject:
   - 54: {fileID: 1885321684}
   - 82: {fileID: 1885321683}
   - 114: {fileID: 1885321688}
-  m_Layer: 0
+  - 96: {fileID: 1885321689}
+  m_Layer: 8
   m_Name: Asteroid
   m_TagString: Asteroid
   m_Icon: {fileID: 0}
@@ -4124,6 +4348,48 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c952c48593f4cd94884f77ef3b1f749a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!96 &1885321689
+TrailRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9600000, guid: afe0dbda419fa7f45bd2227129c6e1e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 1777961341}
+  m_GameObject: {fileID: 1885321681}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Time: 5
+  m_StartWidth: .300000012
+  m_EndWidth: .100000001
+  m_Colors:
+    m_Color[0]:
+      serializedVersion: 2
+      rgba: 4294967295
+    m_Color[1]:
+      serializedVersion: 2
+      rgba: 4294967295
+    m_Color[2]:
+      serializedVersion: 2
+      rgba: 4294967295
+    m_Color[3]:
+      serializedVersion: 2
+      rgba: 4294967295
+    m_Color[4]:
+      serializedVersion: 2
+      rgba: 16777215
+  m_MinVertexDistance: .100000001
+  m_Autodestruct: 0
 --- !u!1 &1959482109
 GameObject:
   m_ObjectHideFlags: 0
@@ -4138,7 +4404,8 @@ GameObject:
   - 54: {fileID: 1959482111}
   - 82: {fileID: 1959482115}
   - 114: {fileID: 1959482116}
-  m_Layer: 0
+  - 96: {fileID: 1959482117}
+  m_Layer: 8
   m_Name: Asteroid
   m_TagString: Asteroid
   m_Icon: {fileID: 0}
@@ -4286,6 +4553,132 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c952c48593f4cd94884f77ef3b1f749a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!96 &1959482117
+TrailRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9600000, guid: afe0dbda419fa7f45bd2227129c6e1e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 577572176}
+  m_GameObject: {fileID: 1959482109}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Time: 5
+  m_StartWidth: .300000012
+  m_EndWidth: .100000001
+  m_Colors:
+    m_Color[0]:
+      serializedVersion: 2
+      rgba: 4294967295
+    m_Color[1]:
+      serializedVersion: 2
+      rgba: 4294967295
+    m_Color[2]:
+      serializedVersion: 2
+      rgba: 4294967295
+    m_Color[3]:
+      serializedVersion: 2
+      rgba: 4294967295
+    m_Color[4]:
+      serializedVersion: 2
+      rgba: 16777215
+  m_MinVertexDistance: .100000001
+  m_Autodestruct: 0
+--- !u!1 &2011596620
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2011596625}
+  - 20: {fileID: 2011596624}
+  - 124: {fileID: 2011596623}
+  - 92: {fileID: 2011596622}
+  - 81: {fileID: 2011596621}
+  m_Layer: 8
+  m_Name: Radar Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &2011596621
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2011596620}
+  m_Enabled: 1
+--- !u!92 &2011596622
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2011596620}
+  m_Enabled: 1
+--- !u!124 &2011596623
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2011596620}
+  m_Enabled: 1
+--- !u!20 &2011596624
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2011596620}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: .772058845, g: .96227181, b: 1, a: .0196078438}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: .720000029
+    y: .0299999993
+    width: .100000001
+    height: .200000003
+  near clip plane: -10
+  far clip plane: 10
+  field of view: 153
+  orthographic: 1
+  orthographic size: 10
+  m_Depth: 10
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 768
+  m_RenderingPath: 1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_HDR: 1
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: .0219999999
+--- !u!4 &2011596625
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2011596620}
+  m_LocalRotation: {x: .707106829, y: 0, z: 0, w: .707106829}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
 --- !u!1 &2018196295
 GameObject:
   m_ObjectHideFlags: 0
@@ -4396,7 +4789,8 @@ GameObject:
   - 54: {fileID: 2085808080}
   - 82: {fileID: 2085808084}
   - 114: {fileID: 2085808085}
-  m_Layer: 0
+  - 96: {fileID: 2085808086}
+  m_Layer: 8
   m_Name: Asteroid
   m_TagString: Asteroid
   m_Icon: {fileID: 0}
@@ -4544,6 +4938,48 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c952c48593f4cd94884f77ef3b1f749a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!96 &2085808086
+TrailRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9600000, guid: afe0dbda419fa7f45bd2227129c6e1e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 297137293}
+  m_GameObject: {fileID: 2085808078}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Time: 5
+  m_StartWidth: .300000012
+  m_EndWidth: .100000001
+  m_Colors:
+    m_Color[0]:
+      serializedVersion: 2
+      rgba: 4294967295
+    m_Color[1]:
+      serializedVersion: 2
+      rgba: 4294967295
+    m_Color[2]:
+      serializedVersion: 2
+      rgba: 4294967295
+    m_Color[3]:
+      serializedVersion: 2
+      rgba: 4294967295
+    m_Color[4]:
+      serializedVersion: 2
+      rgba: 16777215
+  m_MinVertexDistance: .100000001
+  m_Autodestruct: 0
 --- !u!1 &2100267168
 GameObject:
   m_ObjectHideFlags: 0
@@ -4686,7 +5122,8 @@ GameObject:
   - 54: {fileID: 2104085656}
   - 82: {fileID: 2104085660}
   - 114: {fileID: 2104085661}
-  m_Layer: 0
+  - 96: {fileID: 2104085662}
+  m_Layer: 8
   m_Name: Asteroid
   m_TagString: Asteroid
   m_Icon: {fileID: 0}
@@ -4834,6 +5271,48 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c952c48593f4cd94884f77ef3b1f749a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!96 &2104085662
+TrailRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9600000, guid: afe0dbda419fa7f45bd2227129c6e1e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 2101136419}
+  m_GameObject: {fileID: 2104085654}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Time: 5
+  m_StartWidth: .300000012
+  m_EndWidth: .100000001
+  m_Colors:
+    m_Color[0]:
+      serializedVersion: 2
+      rgba: 4294967295
+    m_Color[1]:
+      serializedVersion: 2
+      rgba: 4294967295
+    m_Color[2]:
+      serializedVersion: 2
+      rgba: 4294967295
+    m_Color[3]:
+      serializedVersion: 2
+      rgba: 4294967295
+    m_Color[4]:
+      serializedVersion: 2
+      rgba: 16777215
+  m_MinVertexDistance: .100000001
+  m_Autodestruct: 0
 --- !u!65 &2127411186
 BoxCollider:
   m_ObjectHideFlags: 0
