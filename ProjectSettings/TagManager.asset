@@ -43,3 +43,7 @@ TagManager:
     userID: 0
     uniqueID: 0
     locked: 0
+  - name: Asteroid
+    userID: 1
+    uniqueID: 2925337319
+    locked: 0

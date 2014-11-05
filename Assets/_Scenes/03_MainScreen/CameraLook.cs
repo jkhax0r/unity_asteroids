@@ -4,12 +4,15 @@ using System.Collections;
 public class CameraLook : MonoBehaviour {
 
 	Color green = new Color(0,255,0);
+	float sw = Screen.width;
+	float sh = Screen.height;
 
 	// Use this for initialization
 	void Start () {
-	
+
 	}
-	
+
+
 	// Update is called once per frame
 	void FixedUpdate () {
 		RaycastHit hit;
