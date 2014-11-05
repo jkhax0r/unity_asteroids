@@ -227,9 +227,9 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 20
   m_Drag: 0
-  m_AngularDrag: .0500000007
+  m_AngularDrag: 0
   m_UseGravity: 0
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -620,9 +620,9 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 20
   m_Drag: 0
-  m_AngularDrag: .0500000007
+  m_AngularDrag: 0
   m_UseGravity: 0
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -782,9 +782,9 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 20
   m_Drag: 0
-  m_AngularDrag: .0500000007
+  m_AngularDrag: 0
   m_UseGravity: 0
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -945,7 +945,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 475650915}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -1264,7 +1264,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 722162647}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -1503,9 +1503,9 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 20
   m_Drag: 0
-  m_AngularDrag: .0500000007
+  m_AngularDrag: 0
   m_UseGravity: 0
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -1733,7 +1733,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1115902864}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -1798,7 +1798,7 @@ BoxCollider:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1259306498}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 28e3efcc597b8374b9e7696e7349c250, type: 2}
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
@@ -1851,7 +1851,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1291809006}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -2131,9 +2131,9 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 20
   m_Drag: 0
-  m_AngularDrag: .0500000007
+  m_AngularDrag: 0
   m_UseGravity: 0
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -2250,7 +2250,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1504681307}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -3843,9 +3843,9 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 20
   m_Drag: 0
-  m_AngularDrag: .0500000007
+  m_AngularDrag: 0
   m_UseGravity: 0
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -4064,9 +4064,9 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 20
   m_Drag: 0
-  m_AngularDrag: .0500000007
+  m_AngularDrag: 0
   m_UseGravity: 0
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -4167,9 +4167,9 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 20
   m_Drag: 0
-  m_AngularDrag: .0500000007
+  m_AngularDrag: 0
   m_UseGravity: 0
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -4425,9 +4425,9 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 20
   m_Drag: 0
-  m_AngularDrag: .0500000007
+  m_AngularDrag: 0
   m_UseGravity: 0
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -4603,7 +4603,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2100267168}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -4715,9 +4715,9 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 20
   m_Drag: 0
-  m_AngularDrag: .0500000007
+  m_AngularDrag: 0
   m_UseGravity: 0
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
