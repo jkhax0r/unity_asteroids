@@ -17,7 +17,7 @@ function Start () {
 
     yield FadeGUITexture(guiObject, fadeTime, Fade.In);
 
-    yield WaitForSeconds(0.5);
+    yield WaitForSeconds(1.0);
 
     yield FadeGUITexture(guiObject, fadeTime, Fade.Out);
 	

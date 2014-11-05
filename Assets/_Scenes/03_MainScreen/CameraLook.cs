@@ -25,7 +25,7 @@ public class CameraLook : MonoBehaviour {
 			     
 				}
 			}
-			hit.transform.Rotate(1.0f, 1.0f, 1.0f);
+	
 		}
 	}
 }

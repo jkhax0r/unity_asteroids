@@ -291,7 +291,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!23 &37582938
 Renderer:
   m_ObjectHideFlags: 0
@@ -1175,8 +1175,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -10.9906845, y: 0, z: 25.9600773}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 950036412}
+  m_Children: []
   m_Father: {fileID: 1796560032}
   m_RootOrder: 3
 --- !u!1 &722162647
@@ -1371,72 +1370,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
---- !u!1 &950036410
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100080, guid: 1873c615a2d0b6d4f9e7b1251e3acbb5, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 950036412}
-  - 132: {fileID: 950036411}
-  - 114: {fileID: 950036413}
-  m_Layer: 0
-  m_Name: fpsdisplay
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!132 &950036411
-GUIText:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13200000, guid: 1873c615a2d0b6d4f9e7b1251e3acbb5,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 950036410}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Text: Fps
-  m_Anchor: 1
-  m_Alignment: 1
-  m_PixelOffset: {x: 0, y: 0}
-  m_LineSpacing: 1
-  m_TabSize: 4
-  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-  m_Material: {fileID: 0}
-  m_FontSize: 0
-  m_FontStyle: 0
-  m_Color:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_PixelCorrect: 1
-  m_RichText: 1
---- !u!4 &950036412
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400080, guid: 1873c615a2d0b6d4f9e7b1251e3acbb5, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 950036410}
-  m_LocalRotation: {x: .116897359, y: .986749589, z: -.0166212115, w: .111284047}
-  m_LocalPosition: {x: 8.49110126, y: -13.4976454, z: 23.0675259}
-  m_LocalScale: {x: 2.21373963, y: 2.21373963, z: 2.21373963}
-  m_Children: []
-  m_Father: {fileID: 716417843}
-  m_RootOrder: 0
---- !u!114 &950036413
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400000, guid: 1873c615a2d0b6d4f9e7b1251e3acbb5,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 950036410}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86cc6baa122513a4b8ca13de9c521b24, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  updateInterval: .5
 --- !u!1 &973668213
 GameObject:
   m_ObjectHideFlags: 0
@@ -1695,8 +1628,8 @@ Transform:
   m_PrefabParentObject: {fileID: 400058, guid: 1873c615a2d0b6d4f9e7b1251e3acbb5, type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1083499252}
-  m_LocalRotation: {x: .168933094, y: .822682083, z: .090504922, w: -.535223961}
-  m_LocalPosition: {x: 4.18066311, y: -11.1412106, z: -.451379627}
+  m_LocalRotation: {x: .516597331, y: -.0653711334, z: .850564361, w: -.073445268}
+  m_LocalPosition: {x: -28.180851, y: -1.64609909, z: -15.231288}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1796560032}
@@ -2261,7 +2194,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 1578616898}
   - 143: {fileID: 1767232293}
-  - 114: {fileID: 1767232292}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -3461,43 +3393,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1796560032}
   m_RootOrder: 5
---- !u!114 &1767232292
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400004, guid: f6e83792e552acc4fbff9b5aa60f1a74,
-    type: 2}
-  m_PrefabInternal: {fileID: 1797321457}
-  m_GameObject: {fileID: 1578616897}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35d434bc57623934f837162833472a85, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  inputMoveDirection: {x: 0, y: 0, z: 0}
-  inputJump: 0
-  grounded: 0
-  downmovement: .100000001
-  velocity: {x: 0, y: 0, z: 0}
-  max_speed: .100000001
-  max_speed_air: .129999995
-  max_speed_ground: .100000001
-  acceleration: 10
-  acceleration_air: 10
-  gravity: -.180000007
-  friction: .800000012
-  cameraObject: {fileID: 1403887277}
-  groundNormal: {x: 0, y: 0, z: 0}
-  jumpspeed: .159999996
-  stopmovingup: 0
-  fallkillspeed: -.379999995
-  collisionFlags: 0
-  ground_gameobject: {fileID: 0}
-  last_ground_pos: {x: 0, y: 0, z: 0}
-  floating: 0
-  autowalk: 0
-  inhibit_autowalk: 1
-  reload_once: 0
-  fadeduration: 2
 --- !u!143 &1767232293
 CharacterController:
   m_ObjectHideFlags: 0
@@ -3649,7 +3544,8 @@ Prefab:
       propertyPath: zoom
       value: .075000003
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
   m_ParentPrefab: {fileID: 100100000, guid: f6e83792e552acc4fbff9b5aa60f1a74, type: 2}
   m_RootGameObject: {fileID: 1578616897}
   m_IsPrefabParent: 0
