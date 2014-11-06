@@ -265,15 +265,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: afe0dbda419fa7f45bd2227129c6e1e8, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 2.18694878
+      value: 3.92750287
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: afe0dbda419fa7f45bd2227129c6e1e8, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -2.79904032
+      value: -3.44571495
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: afe0dbda419fa7f45bd2227129c6e1e8, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -.782634258
+      value: .465388387
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: afe0dbda419fa7f45bd2227129c6e1e8, type: 2}
       propertyPath: m_LocalRotation.x
@@ -354,7 +354,7 @@ Transform:
   m_PrefabInternal: {fileID: 131441354}
   m_GameObject: {fileID: 159862223}
   m_LocalRotation: {x: .480510682, y: .0630697235, z: -.479922473, w: -.731304407}
-  m_LocalPosition: {x: 2.18694878, y: -2.79904032, z: -.782634258}
+  m_LocalPosition: {x: 3.92750287, y: -3.44571495, z: .465388387}
   m_LocalScale: {x: 3.22552037, y: 3.22552156, z: 3.22552156}
   m_Children: []
   m_Father: {fileID: 1975232610}
@@ -377,7 +377,7 @@ TrailRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 131441354}
   m_GameObject: {fileID: 159862223}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_LightmapIndex: 255
@@ -447,7 +447,7 @@ AudioSource:
   rolloffMode: 0
   BypassEffects: 0
   BypassListenerEffects: 0
-  BypassReverbZones: 0
+  BypassReverbZones: 1
   rolloffCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -3829,7 +3829,7 @@ Transform:
   m_PrefabParentObject: {fileID: 400016, guid: f6e83792e552acc4fbff9b5aa60f1a74, type: 2}
   m_PrefabInternal: {fileID: 1797321457}
   m_GameObject: {fileID: 1578616897}
-  m_LocalRotation: {x: 0, y: .491708726, z: 0, w: .870759785}
+  m_LocalRotation: {x: 0, y: -.995634675, z: 0, w: .0933357999}
   m_LocalPosition: {x: 2.38288641, y: 0, z: 1.68634272}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -3992,7 +3992,7 @@ AudioSource:
   rolloffMode: 0
   BypassEffects: 0
   BypassListenerEffects: 0
-  BypassReverbZones: 0
+  BypassReverbZones: 1
   rolloffCustomCurve:
     serializedVersion: 2
     m_Curve:
