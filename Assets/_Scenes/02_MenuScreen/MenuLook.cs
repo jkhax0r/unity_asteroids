@@ -1,0 +1,34 @@
+﻿using UnityEngine;
+using System.Collections;
+
+public class MenuLook : MonoBehaviour {
+	
+	Color green = new Color(0,255,0);
+	float sw = Screen.width;
+	float sh = Screen.height;
+	
+	// Use this for initialization
+	void Start () {
+		
+	}
+	
+	
+	// Update is called once per frame
+	void FixedUpdate () {
+		RaycastHit hit;
+		var cameraCenter = camera.ScreenToWorldPoint(new Vector3(Screen.width / 2f, Screen.height / 2f, camera.nearClipPlane));
+		if (Physics.Raycast(cameraCenter, this.transform.forward, out hit, 1000))
+		{
+			var obj = hit.transform.gameObject;
+			
+			if(obj.name == "StartRoid"){
+				if(obj.renderer.material.color != green){
+					obj.renderer.material.color = new Color(0,255,0);
+					obj.audio.Play ();
+					
+				}
+			}
+			
+		}
+	}
+}
