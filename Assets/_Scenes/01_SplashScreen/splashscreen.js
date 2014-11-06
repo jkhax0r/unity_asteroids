@@ -23,7 +23,7 @@ function Start () {
 	
 	yield WaitForSeconds(0.5);
     
-    Application.LoadLevel(nextscene);
+    Application.LoadLevel("MenuScreenScene");
 }
 
  

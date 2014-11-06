@@ -8,7 +8,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/01_SplashScreen/SplashScreenScene.unity
   - enabled: 1
+    path: Assets/_Scenes/02_MenuScreen/MenuScreenScene.unity
+  - enabled: 1
     path: Assets/_Scenes/03_MainScreen/MainScreenScene.unity
+  - enabled: 0
+    path: Assets/_Scenes/01_SplashScreen/SplashScreenScene.unity
   - enabled: 0
     path: Assets/DiveUnityDemo/DiveUnityDemoHighpoly.unity
   - enabled: 0
