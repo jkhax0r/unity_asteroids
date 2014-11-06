@@ -226,7 +226,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 1411520618}
   m_GameObject: {fileID: 26706144}
   serializedVersion: 2
-  m_Mass: 1000
+  m_Mass: 100
   m_Drag: 0
   m_AngularDrag: 0
   m_UseGravity: 0
@@ -561,6 +561,57 @@ Prefab:
   m_RootGameObject: {fileID: 210444338}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &183509312
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 183509314}
+  - 132: {fileID: 183509313}
+  m_Layer: 0
+  m_Name: GUI_RADAR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!132 &183509313
+GUIText:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 183509312}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Text: 'Radar '
+  m_Anchor: 0
+  m_Alignment: 0
+  m_PixelOffset: {x: 0, y: 0}
+  m_LineSpacing: 1
+  m_TabSize: 4
+  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Material: {fileID: 0}
+  m_FontSize: 0
+  m_FontStyle: 0
+  m_Color:
+    serializedVersion: 2
+    rgba: 2013331230
+  m_PixelCorrect: 1
+  m_RichText: 1
+--- !u!4 &183509314
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 183509312}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .306580245, y: .649999976, z: 0}
+  m_LocalScale: {x: .71636951, y: .716370463, z: .716370463}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
 --- !u!1 &210444338
 GameObject:
   m_ObjectHideFlags: 0
@@ -662,7 +713,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 181618495}
   m_GameObject: {fileID: 210444338}
   serializedVersion: 2
-  m_Mass: 1000
+  m_Mass: 100
   m_Drag: 0
   m_AngularDrag: 0
   m_UseGravity: 0
@@ -867,7 +918,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 792605243}
   m_GameObject: {fileID: 292411213}
   serializedVersion: 2
-  m_Mass: 1000
+  m_Mass: 100
   m_Drag: 0
   m_AngularDrag: 0
   m_UseGravity: 0
@@ -1567,7 +1618,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 1361199566}
   m_GameObject: {fileID: 1049024185}
   serializedVersion: 2
-  m_Mass: 1000
+  m_Mass: 100
   m_Drag: 0
   m_AngularDrag: 0
   m_UseGravity: 0
@@ -2387,7 +2438,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100659501}
   m_GameObject: {fileID: 1430807750}
   serializedVersion: 2
-  m_Mass: 1000
+  m_Mass: 100
   m_Drag: 0
   m_AngularDrag: 0
   m_UseGravity: 0
@@ -4316,7 +4367,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 501074983}
   m_GameObject: {fileID: 1871566587}
   serializedVersion: 2
-  m_Mass: 1000
+  m_Mass: 100
   m_Drag: 0
   m_AngularDrag: 0
   m_UseGravity: 0
@@ -4580,7 +4631,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 1777961341}
   m_GameObject: {fileID: 1885321681}
   serializedVersion: 2
-  m_Mass: 1000
+  m_Mass: 100
   m_Drag: 0
   m_AngularDrag: 0
   m_UseGravity: 0
@@ -4726,7 +4777,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 577572176}
   m_GameObject: {fileID: 1959482109}
   serializedVersion: 2
-  m_Mass: 1000
+  m_Mass: 100
   m_Drag: 0
   m_AngularDrag: 0
   m_UseGravity: 0
@@ -4930,13 +4981,13 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 3
-  m_BackGroundColor: {r: .0901960805, g: .0274509806, b: .0901960805, a: 0}
+  m_BackGroundColor: {r: .213468716, g: .389705896, b: .128946811, a: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: .829999983
-    y: .280000001
-    width: .100000001
-    height: .200000003
+    x: .654999971
+    y: .409999996
+    width: .0799999982
+    height: .180000007
   near clip plane: -10
   far clip plane: 10
   field of view: 153
@@ -4946,7 +4997,7 @@ Camera:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967240
-  m_RenderingPath: 0
+  m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
   m_HDR: 0
@@ -5103,7 +5154,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 297137293}
   m_GameObject: {fileID: 2085808078}
   serializedVersion: 2
-  m_Mass: 1000
+  m_Mass: 100
   m_Drag: 0
   m_AngularDrag: 0
   m_UseGravity: 0
@@ -5436,7 +5487,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 2101136419}
   m_GameObject: {fileID: 2104085654}
   serializedVersion: 2
-  m_Mass: 1000
+  m_Mass: 100
   m_Drag: 0
   m_AngularDrag: 0
   m_UseGravity: 0
