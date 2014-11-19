@@ -2,8 +2,7 @@
 using System.Collections;
 
 public class Bullet : MonoBehaviour {
-
-	public GameObject bullet_prefab;
+	
 	public float asteroid_speed = 1.0f;
 	bool hitSomething = false;
 
@@ -74,6 +73,7 @@ public class Bullet : MonoBehaviour {
 				newAsteroid(c.gameObject, scale, speed);
 			}
 
+			CameraLook.GameScore++;
 
 
 		} 
